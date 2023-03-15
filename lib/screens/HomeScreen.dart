@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
 
-  final FirebaseUser user;
+  final User? user;
+  String? userAuthToken;
 
-  HomeScreen({this.user});
+  HomeScreen({this.user, this.userAuthToken});
 
   @override
   Widget build(BuildContext context) {
@@ -17,11 +18,14 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text("You are Logged in succesfully", style: TextStyle(color: Colors.lightBlue, fontSize: 32),),
-            SizedBox(height: 16,),
-            Text("${user.phoneNumber}", style: TextStyle(color: Colors.grey, ),),
+            SizedBox(height: 16),
+            Text("Mobile no. : ${user!.phoneNumber}", style: TextStyle(color: Colors.black ),),
+            SizedBox(height: 10,),
+            Text("$userAuthToken" , style: TextStyle(color: Colors.blue, ),),
           ],
         ),
       ),
     );
   }
+
 }

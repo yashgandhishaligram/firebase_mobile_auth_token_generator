@@ -1,43 +1,49 @@
 {
   "project_info": {
-    "project_number": "507796188641",
-    "firebase_url": "https://fir-user-c263d.firebaseio.com",
-    "project_id": "fir-user-c263d",
-    "storage_bucket": "fir-user-c263d.appspot.com"
+    "project_number": "1085422603846",
+    "project_id": "sawera-sandbox",
+    "storage_bucket": "sawera-sandbox.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:507796188641:android:2fdfb3d659ce512cfc36a0",
+        "mobilesdk_app_id": "1:1085422603846:android:7dfe0bd92e21a3e3c80447",
         "android_client_info": {
-          "package_name": "comdesign.example.firebase_user_login"
+          "package_name": "com.example.tech_sawera_alpha"
         }
       },
       "oauth_client": [
         {
-          "client_id": "507796188641-03an4j5i35239s6od7kuuaec7odlfijf.apps.googleusercontent.com",
+          "client_id": "1085422603846-2mvvqnecqkf46880m9hve0m971lqtq4g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "comdesign.example.firebase_user_login",
-            "certificate_hash": "b7f9fb418a0ecba68ba756c60061af0e2e0365a3"
+            "package_name": "com.example.tech_sawera_alpha",
+            "certificate_hash": "404bf8b7eb6ff2ed3a93a381d9dd02c9e3dda5e1"
           }
         },
         {
-          "client_id": "507796188641-fdm7akpktrurdd9mnfa57l157aas7srg.apps.googleusercontent.com",
+          "client_id": "1085422603846-4454gejq48l0qnemie14prackb9rd86j.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB7W2vL8qr474xBacVu51XcrlYnmBTQL_c"
+          "current_key": "AIzaSyCQXykVK7kpUdmcPr57K9AV9R3gPPjKjRY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "507796188641-fdm7akpktrurdd9mnfa57l157aas7srg.apps.googleusercontent.com",
+              "client_id": "1085422603846-4454gejq48l0qnemie14prackb9rd86j.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1085422603846-v7knu6o4n61erks0k34317inq13hstho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.techSaweraAlpha"
+              }
             }
           ]
         }
